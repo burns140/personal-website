@@ -1,0 +1,27 @@
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0px 0px 15px 0px
+}
+
+.project-wrapper-reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.project-description {
+    margin: 15px;
+    width: 40%;
+}
+
+.project-description-wrapper {
+    display: flex;
+}
