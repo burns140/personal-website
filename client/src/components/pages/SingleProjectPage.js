@@ -5,7 +5,8 @@ import './SingleProjectPage.css'
 class SingleProjectPage extends Component {
     state = {
         featureItems: [],
-        contribItems: []
+        contribItems: [],
+        githubUrl: ""
     }
 
     async componentDidMount() {
@@ -20,7 +21,8 @@ class SingleProjectPage extends Component {
         this.setState(
             {
                 featureItems: featureItems,
-                contribItems: contribItems
+                contribItems: contribItems,
+                githubUrl: json.github
             }
         );
     }
@@ -29,8 +31,9 @@ class SingleProjectPage extends Component {
         return (
             <div className="single-project-container">
                 <ul className="single-project-outer-list">
-                    <h1 style={{marginBlock: '0.4em'}}>{window.location.href.substr(window.location.href.lastIndexOf('/') + 1).replace('-', ' ')}</h1>
-                    <ReactPlayer url={this.props.location.vidUrl} controls={true} width="1024px" height="576px"/>
+                    <h1 style={{marginBlockStart: '0.4em', marginBlockEnd: 0}}>{window.location.href.substr(window.location.href.lastIndexOf('/') + 1).replace('-', ' ')}</h1>
+                    <a style={{fontSize: '20px'}} href={this.state.githubUrl}>Github</a>
+                    <ReactPlayer style={{paddingTop: '10px'}} url={this.props.location.vidUrl} controls={true} width="1024px" height="576px"/>
                     <div className="side-by-side-list-container">
                         <div className="project-list-container">
                             <ol className="single-project-list">

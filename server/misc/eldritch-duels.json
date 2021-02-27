@@ -1,6 +1,6 @@
 {
     "features": [
-        "Customizable Profile",
+        "Customizable profile",
         "Card collections and user-created decks",
         "Decklist templating and sharing",
         "Gameplay stats",
@@ -15,5 +15,7 @@
     "contributions": [
         "Networking code, including matchmaking and data transfer during gameplay. Client side networking code is in C#, server side is NodeJS",
         "Database management and data processing for anything tied to user accounts as well as the store and card collections. Server code was NodeJS and the database used was MongoDB"
-    ]
+    ],
+
+    "github": "https://github.com/burns140/eldritch_duels"
 }

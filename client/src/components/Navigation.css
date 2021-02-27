@@ -1,15 +1,14 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background: radial-gradient(circle, rgba(63,94,251,1) 20%, rgba(70,252,207,1) 66%);
-    background: linear-gradient(150deg, rgba(123,142,23,1) 0%, rgba(121,9,58,0.7399553571428572) 50%, rgba(53, 218, 224, 1) 100%);
+	background-color: #1f2224;
 }
 
 .nav-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid white;
     border-width: 0px 1px 0px 1px;
 }
 
@@ -40,6 +39,7 @@
 
 .nav-extern-item {
     border: none;
+    margin-top: 2px;
 }
 
 .nav-extern-item > .nav-link {
