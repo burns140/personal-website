@@ -11,7 +11,7 @@ class NavItem extends Component {
         let item;
 
         if (!this.props.url) {
-            item = [<span>{"stephen.burns230@gmail.com"}</span>, <span>{"630-730-9497"}</span>]
+            item = [<a href="mailto::stephen.burns230@gmail.com">stephen.burns230@gmail.com</a>, <span>630-730-9497</span>]
         } else {
             if (this.props.external) {
                 item = <a href={this.props.url} className="nav-link">{this.props.name}</a>

@@ -1,8 +1,11 @@
 {
     "features": [
-        "teamup 1",
-        "teamup 2",
-        "teamup 3"
+        "Customizable profile",
+        "Creation of public or private teams",
+        "Joining or invite/application for private teams",
+        "Team search by size, name, or desired skills",
+        "Team chat",
+        "Find what time-blocks all members are free"
     ],
 
     "contributions": [
