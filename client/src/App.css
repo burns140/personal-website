@@ -1,6 +1,12 @@
 .App {
 	text-align: center;
     font-family: 'Segoe UI', Frutiger, 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: white;
+	height: 100vh;
+}
+
+body {
+	background-color: #1f2224;
 }
 
 .App-logo {
@@ -14,7 +20,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
+		/* animation: App-logo-spin infinite 20s linear; */
 	}
 }
 

@@ -5,17 +5,16 @@ import './ProjectPage.css'
 class ProjectPage extends Component {
     state = {}
 
-    componentDidMount() {
-        
-    }
+    componentDidMount() {   }
 
     render() {
         return (
             <div className="project-container">
-                <ul>
-                    <Project url="https://www.youtube.com/watch?v=Eg9MSoZOOyY" filename="projOneDesc"/>
-                    <Project url="https://www.youtube.com/watch?v=HJVS3nmBt6U" filename="projTwoDesc" reverse="true"/>
-                    <Project url="https://www.youtube.com/watch?v=NHnmY1S3iUk" filename="projThreeDesc" />
+                <ul className="project-list">
+                    <h1 className="project-page-header">PROJECTS</h1>
+                    <Project url="https://www.youtube.com/watch?v=Eg9MSoZOOyY" filename="projOneDesc" headertext="Eldritch Duels" />
+                    <Project url="https://www.youtube.com/watch?v=HJVS3nmBt6U" filename="projTwoDesc" headertext="TeamUp" reverse="true"/>
+                    <Project url="https://www.youtube.com/watch?v=NHnmY1S3iUk" filename="projThreeDesc" headertext="GunSmith" />
                 </ul>
             </div>
         )

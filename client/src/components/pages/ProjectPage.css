@@ -17,11 +17,34 @@
     text-align: right;
 }
 
-.project-description {
+.project-description-wrapper {
+    display: flex;
+    flex-direction: column;
     margin: 15px;
     width: 40%;
 }
 
-.project-description-wrapper {
-    display: flex;
+.project-header {
+    margin: 0px;
+}
+
+.project-page-header {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: 200;
+    font-size: 75px;
+    text-align: center;
+}
+
+.project-list {
+    margin-top: 0px;
+    padding-inline-start: 0px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(100, 202, 202)
 }
