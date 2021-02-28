@@ -8,6 +8,7 @@ const aboutMe = require('./routes/aboutMe.js');
 const PORT = process.env.PORT || 9000;
 
 const app = express();
+app.use(express.static(publicPath));
 app.use(cors());
 
 app.listen(PORT, () => {
