@@ -1,10 +1,10 @@
 {
     "features": [
-        "Check all members' recent activity in the server",
         "Send a direct message to all members",
         "Set welcome message to be sent to any members who join the server",
         "Get lore about in-universe items and characters (from Ishtar Collective website)",
-        "Get recommended rolls for weapons based on what activity you are doing"
+        "Get recommended rolls for weapons based on what activity you are doing",
+        "Get list of best weapons in each category"
     ],
 
     "contributions": [
@@ -14,5 +14,5 @@
     ],
 
     "github": "https://github.com/burns140/ao_bot",
-    "vidUrl": "https://www.youtube.com/watch?v=NHnmY1S3iUk"
+    "vidUrl": "https://www.youtube.com/watch?v=ULlG9Emi2B8"
 }

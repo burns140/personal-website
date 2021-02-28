@@ -12,7 +12,7 @@ class AboutMePage extends Component {
         const text = await (await fetch('/about')).text();
         console.log(text);
 
-        this.setState({text: text });
+        this.setState({ text: text });
     }
 
     render() {

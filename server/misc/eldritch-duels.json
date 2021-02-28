@@ -5,16 +5,21 @@
         "Decklist templating and sharing",
         "Gameplay stats",
         "Achievements",
+        "Daily, weekly, and monthly challenges",
         "Friends list",
+        "In-game chat",
         "Leaderboards",
         "Casual, Ranked, and Private matches",
+        "Battle against AI opponent of varying difficulty",
         "Card crafting",
-        "Store page to open packs (in-game currency)"
+        "Store page to open packs (in-game currency)",
+        "Submit developer feedback"
     ],
 
     "contributions": [
         "Networking code, including matchmaking and data transfer during gameplay. Client side networking code is in C#, server side is NodeJS",
-        "Database management and data processing for anything tied to user accounts as well as the store and card collections. Server code was NodeJS and the database used was MongoDB"
+        "Database management and data processing for anything tied to user accounts as well as the store and card collections. Server code was NodeJS and the database used was MongoDB",
+        "Scenes and scripting in unity for profile editing, signup, login, store page, and challenges"
     ],
 
     "github": "https://github.com/burns140/eldritch_duels",
