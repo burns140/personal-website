@@ -9,10 +9,10 @@
     ],
 
     "contributions": [
-        "tc 1",
-        "tc 2",
-        "tc 3"
+        "All networking code and database management (NodeJS + MongoDB)",
+        "Data processing for finding free times, all searching, user interactions, team management, profile customization, and chat"
     ],
 
-    "github": "https://github.com/burns140/TeamUp"
+    "github": "https://github.com/burns140/TeamUp",
+    "vidUrl": "https://www.youtube.com/watch?v=HJVS3nmBt6U"
 }

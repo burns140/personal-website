@@ -16,7 +16,7 @@ class Navbar extends Component {
         return (
             <div className="navbar">
                 <div className="nav-intern">
-                    <img style={{borderRight: '1px solid black'}} src={logo} className='App-logo' alt='logoimage' />
+                    <img style={{borderRight: '1px solid white'}} src={logo} className='App-logo' alt='logoimage' />
                     <NavItem url="/projects" name="Projects"></NavItem>
                     <NavItem url="/about" name="About Me"></NavItem>
                 </div>

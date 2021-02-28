@@ -6,7 +6,8 @@ class SingleProjectPage extends Component {
     state = {
         featureItems: [],
         contribItems: [],
-        githubUrl: ""
+        githubUrl: "",
+        vidUrl: ""
     }
 
     async componentDidMount() {
@@ -22,7 +23,8 @@ class SingleProjectPage extends Component {
             {
                 featureItems: featureItems,
                 contribItems: contribItems,
-                githubUrl: json.github
+                githubUrl: json.github,
+                vidUrl: json.vidUrl
             }
         );
     }
@@ -33,7 +35,7 @@ class SingleProjectPage extends Component {
                 <ul className="single-project-outer-list">
                     <h1 style={{marginBlockStart: '0.4em', marginBlockEnd: 0}}>{window.location.href.substr(window.location.href.lastIndexOf('/') + 1).replace('-', ' ')}</h1>
                     <a style={{fontSize: '20px'}} href={this.state.githubUrl}>Github</a>
-                    <ReactPlayer style={{paddingTop: '10px'}} url={this.props.location.vidUrl} controls={true} width="1024px" height="576px"/>
+                    <ReactPlayer style={{paddingTop: '10px'}} url={this.state.vidUrl} controls={true} width="1024px" height="576px"/>
                     <div className="side-by-side-list-container">
                         <div className="project-list-container">
                             <ol className="single-project-list">
