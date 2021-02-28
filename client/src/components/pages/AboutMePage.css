@@ -9,3 +9,8 @@
     margin-top: 30px;
     max-height: 500px;
 }
+
+.about-me-paragraph {
+    max-width: 1000px;
+    text-align: left;
+}

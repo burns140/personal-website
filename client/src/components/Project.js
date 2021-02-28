@@ -25,7 +25,7 @@ class Project extends Component {
                 <div className="project-description-wrapper">
                     <h2 className="project-header">{this.props.headertext}</h2>
                     <p className="project-description">{this.state.text}</p>
-                    <Link to={this.state.to}>See More...</Link>
+                    <Link to={this.state.to}>More Info...</Link>
                 </div>
             </div>
         )

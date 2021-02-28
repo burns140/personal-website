@@ -3,6 +3,7 @@ const cors = require('cors');
 const path = require('path');
 const publicPath = path.join(__dirname, '..', 'client/public');
 const projects = require('./routes/projects.js');
+const aboutMe = require('./routes/aboutMe.js');
 
 const PORT = process.env.PORT || 9000;
 
@@ -18,6 +19,8 @@ app.get('/', (req, res) => {
 });
 
 app.use('/projects', projects);
+
+app.use('/about', aboutMe);
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(publicPath, 'index.html'));
