@@ -10,12 +10,12 @@ router.get('/getinfo/:projectname', async (req, res) => {
     })
 })
 
-router.get('/:filename', async (req, res) => {
-    let filename = req.params.filename;
-    fs.readFile(`./misc/${filename}.txt`, (err, data) => {
-        res.send(data);
-    });
-})
+// router.get('/:filename', async (req, res) => {
+//     let filename = req.params.filename;
+//     fs.readFile(`./misc/${filename}.txt`, (err, data) => {
+//         res.send(data);
+//     });
+// })
 
 // router.get('/', (req, res) => {
 //     res.send('Projects page');
