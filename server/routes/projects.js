@@ -17,8 +17,8 @@ router.get('/:filename', async (req, res) => {
     });
 })
 
-router.get('/', (req, res) => {
-    res.send('Projects page');
-});
+// router.get('/', (req, res) => {
+//     res.send('Projects page');
+// });
 
 module.exports = router;
