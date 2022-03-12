@@ -4,9 +4,7 @@ const fs = require('fs');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    fs.readFile('./misc/about-me.txt', (err, data) => {
-        res.send(data);
-    });
+    res.sendFile("./misc/about-me.txt");
 })
 
 module.exports = router;
