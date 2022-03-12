@@ -4,6 +4,7 @@ import logo from '../logo.svg'
 import githubLogoLight from '../GitHub-Mark-Light-64px.png';
 //import linkedinLogo from '../linkedin_logo.svg'
 import linkedinLogoLight from '../linkedin-3-64.png'
+import myLogo from '../images/my-logo.png'
 import NavItem from './NavItem'
 import './Navigation.css'
 
@@ -16,7 +17,7 @@ class Navbar extends Component {
         return (
             <div className="navbar">
                 <div className="nav-intern">
-                    <img style={{borderRight: '1px solid white'}} src={logo} className='App-logo' alt='logoimage' />
+                    <img style={{borderRight: '1px solid white', height: '60px', padding: '10px'}} src={myLogo} className='App-logo' alt='logoimage' />
                     <NavItem url="/projects" name="Projects"></NavItem>
                     <NavItem url="/about" name="About Me"></NavItem>
                 </div>

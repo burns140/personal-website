@@ -11,7 +11,7 @@ class SingleProjectPage extends Component {
     }
 
     async componentDidMount() {
-        const json = await (await fetch(`/projects/show/${window.location.href.substr(window.location.href.lastIndexOf('/') + 1).toLocaleLowerCase()}`)).json();
+        const json = await (await fetch(`/projects/getinfo/${window.location.href.substr(window.location.href.lastIndexOf('/') + 1).toLocaleLowerCase()}`)).json();
         const featureItems = json.features.map(feature => 
             <li className="single-project-list-item">{feature}</li>
         )

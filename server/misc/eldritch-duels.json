@@ -2,14 +2,13 @@
     "features": [
         "Customizable profile",
         "Card collections and user-created decks",
-        "Decklist templating and sharing",
         "Gameplay stats",
         "Achievements",
         "Daily, weekly, and monthly challenges",
         "Friends list",
         "In-game chat",
         "Leaderboards",
-        "Casual, Ranked, and Private matches",
+        "Casual and Ranked matches",
         "Battle against AI opponent of varying difficulty",
         "Card crafting",
         "Store page to open packs (in-game currency)",
@@ -22,6 +21,6 @@
         "Scenes and scripting in unity for profile editing, signup, login, store page, and challenges"
     ],
 
-    "github": "https://github.com/burns140/eldritch_duels",
-    "vidUrl": "https://www.youtube.com/watch?v=Eg9MSoZOOyY"
+    "github": "https://github.com/burns140/eldritch_duels/tree/master3build",
+    "vidUrl": "https://www.youtube.com/watch?v=IZAONB5qcys"
 }

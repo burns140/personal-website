@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const router = express.Router();
 
-router.get('/show/:projectname', async (req, res) => {
+router.get('/getinfo/:projectname', async (req, res) => {
     let projectName = req.params.projectname;
     fs.readFile(`./misc/${projectName}.json`, (err, data) => {
         res.json(JSON.parse(data));

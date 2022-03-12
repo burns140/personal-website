@@ -10,7 +10,7 @@ class AboutMePage extends Component {
     }
 
     async componentDidMount() {
-        const text = await (await fetch('/about')).text();
+        const text = await (await fetch('/aboutme')).text();
 
         this.setState({ text: text });
     }
@@ -24,7 +24,7 @@ class AboutMePage extends Component {
                     <img className="about-me-image-small" src={destiny} alt="destiny" />
                     <img className="about-me-image-small" src={hiking} alt="hiking" />
                 </div>
-            </div>
+            </div> 
         )
     }
 }

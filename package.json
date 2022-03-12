@@ -1,0 +1,25 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "./server/server.js",
+  "scripts": {
+    "start-client": "(cd ./client && react-scripts start)",
+    "build": "(cd ./client && npm install && react-scripts build) && (cd ./server && npm install)",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./server && npm install && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burns140/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burns140/personal-website/issues"
+  },
+  "homepage": "https://github.com/burns140/personal-website#readme",
+  "dependencies": {
+    "react-scripts": "^4.0.3"
+  }
+}
