@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 app.use('/projects', projects);
 
-app.use('/aboutme', aboutMe);
+app.use('/about', aboutMe);
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(publicPath, 'index.html'));
