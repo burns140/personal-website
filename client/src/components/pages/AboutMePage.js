@@ -10,7 +10,7 @@ class AboutMePage extends Component {
     }
 
     async componentDidMount() {
-        const text = await (await fetch('/aboutme')).text();
+        const text = await (await fetch('/about')).text();
 
         this.setState({ text: text });
     }
